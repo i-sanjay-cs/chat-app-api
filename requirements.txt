@@ -1,0 +1,5 @@
+Flask==2.0.1
+Flask-CORS==3.0.10
+PyPDF2==1.26.0
+langchain
+pyngrok==5.1.0
