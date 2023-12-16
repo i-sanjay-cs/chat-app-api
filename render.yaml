@@ -1,0 +1,5 @@
+services:
+  - name: flask-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -b 0.0.0.0:5000 -w 4 python:app
